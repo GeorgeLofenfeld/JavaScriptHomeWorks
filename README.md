@@ -1,1 +1,1 @@
-This is a repo of my homeworks for JavaScript course
+This is a repo for my homeworks of JavaScript course
