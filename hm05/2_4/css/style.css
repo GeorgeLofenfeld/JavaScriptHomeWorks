@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black
+}
+
+.top-links {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.top-links-child {
+    text-decoration: none;
+    color: red;
+    font-weight: 900;
+    transition: all 0.4s;
+}
+
+.top-links-child:hover {
+    color: blue;
+}
+
+div {
+    border: 1px solid black;
+}
+
+#catalog,
+#basket {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#catalog {
+    background-color: lightblue;
+}
+
+#basket {
+    background-color: lightgreen;
+}
